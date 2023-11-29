@@ -10,12 +10,10 @@ nome = str(input('Insira o NOME do funcionario: '))
 salario = float(input('Insira o SALÁRIO do funcionario em R$: '))
 ativo = str(input('O funcionario está ATIVO?  S/N  '))
 
-# Saída
+# Processamento e Saída
 
 print(f'Nome: {nome}')
 print(f'Salário: R${salario}')
-
-
 
 if ativo.lower() =='s':
     print('Ativo')
