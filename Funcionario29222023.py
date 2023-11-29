@@ -17,6 +17,6 @@ funcionario['Ativo'] = True
 # Saída
 
 print(f'Nome: {funcionario["Nome"]}')
-print(f'Salário:R${funcionario["Salario"]}')
+print(f'Salário: R${funcionario["Salario"]}')
 print("*** Funcionario Ativo ***") if funcionario['Ativo'] else print("*** Funcionario Inativo")
 
